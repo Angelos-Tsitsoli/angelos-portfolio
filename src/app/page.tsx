@@ -8,7 +8,7 @@ import Work from "./Components/Work";
 
 export default function Home() {
   return (
-    <div className="max-w-6x1 mx-auto  px-6 py-12">
+    <div className="max-w-6x1 mx-auto px-6 py-12">
       <Header />
       <Hero />
       <AboutMe />
