@@ -2,12 +2,13 @@
 import React from "react";
 
 export default function Contact() {
-   const handleSubmit = (e) => {
+   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    const name = e.target.name.value;
-    const email = e.target.email.value;
-    const message = e.target.message.value;
+    const formData = new FormData(e.currentTarget);
+    const name = String(formData.get("name") ?? "");
+    const email = String(formData.get("email") ?? "");
+    const message = String(formData.get("message") ?? "");
 
     // Open default email client
     window.location.href = `mailto:tsitaggelos@gmail.com?subject=Message from ${encodeURIComponent(
