@@ -25,14 +25,14 @@ export default function Work() {
           <p className="text-sm text-slate-600 dark:text-slate-300 mb-4">Program that works exactly like a shell. Basically by giving commands to the command line the shell works accordingly.</p>
           <div className="flex items-center justify-between text-xs  dark:text-white">
             <span>• C</span>
-            <a className="underline" href="#">Case study</a>
+            <a className="underline" href="https://github.com/Angelos-Tsitsoli/Creation-Of-A-Shell">See Project</a>
           </div>
         </article>
 
         <article className="group border border-white rounded-2xl p-5   shadow hover:shadow-xl transition-shadow focus-ring">
           <div className="relative h-40 rounded-lg overflow-hidden mb-4 bg-gradient-to-b from-primary/10 to-transparent flex items-end p-4">
             <Image
-              src="/airbnb.png" // <-- your image file path here
+              src="/theairbnb.png" // <-- your image file path here
               alt="Shell program interface illustration"
               fill
               className="object-cover"
@@ -44,7 +44,7 @@ export default function Work() {
           <p className="text-sm text-slate-600 dark:text-slate-300 mb-4">Using data from a well-known home rental application (airbnb). Specifically,  data for the Athens area for 3 months in 2019 and 2023 in order to get insights on rental price trends, create graphs and visualizations.</p>
           <div className="flex items-center justify-between text-xs dark:text-white">
             <span>• Python</span>
-            <a className="underline" href="#">Case study</a>
+            <a className="underline" href="https://github.com/Angelos-Tsitsoli/Data-Mining-Project">See Project</a>
           </div>
         </article>
 

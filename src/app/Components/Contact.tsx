@@ -38,7 +38,7 @@ export default function Contact() {
 
             <button
               type="submit"
-              className="mt-3 border border-white inline-flex items-center justify-center gap-2 px-5 py-3 rounded-lg bg-primary  font-semibold shadow-md hover:bg-primary/90 hover:scale-105 transition-transform duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary/50"
+              className="mt-3 border border-white inline-flex items-center justify-center gap-2 px-5 py-3 rounded-lg bg-primary  font-semibold shadow-md hover:bg-primary/90 hover:scale-105 hover:cursor-pointer transition-transform duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary/50"
             >
               Send message
             </button>
