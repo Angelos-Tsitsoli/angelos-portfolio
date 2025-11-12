@@ -35,8 +35,8 @@ export default function Hero() {
   // Choose image source based on mobile and dark mode
   const imageSrc = isMobile
     ? isDark
-      ? "/carbon (8).svg"
-      : "/carbon (9).svg"
+      ? "/carbon (11).svg"
+      : "/carbon (10).svg"
     : isDark
     ? "/carbon (3).svg"
     : "/carbon (2).svg";
